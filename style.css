@@ -21,8 +21,8 @@ header {
 
   header h1{
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 2rem;
+    left: 2rem;
     font-size: 2rem;
     color: white;
   }
@@ -48,12 +48,12 @@ nav {
   }
 
 main{
-  display: flex;
+  display: row-reverse;
   flex-direction: row;
 }
 
   section{
-    flex: 3;
+    flex:4;
     padding: 3rem;
     background: #EEE;
   }
@@ -66,7 +66,7 @@ main{
     }
 
   aside{
-    flex: 1;
+    flex:2;
     padding: 3rem;
     background: #F0F;
   }
